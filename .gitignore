@@ -1,0 +1,51 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Django
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.cover
+*.coverage
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environments
+*.env
+.env.local
+.env.*
+
+# Static and media files
+/staticfiles/
+/media/
+/node_modules/
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS
+.DS_Store
+
+# Pycharm
+*.iml
+*.iws
+.idea/
+
+# Virtual Environment
+venv/
