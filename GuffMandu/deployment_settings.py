@@ -34,7 +34,7 @@ STORAGES = {
         "BACKEND" : "whitenoise.storage.CompressedStaticFilesStorage",
     }
 }
-
+print(os.environ['DATABASE_URL'])
 DATABASES = {
     'default': dj_database_url.config(
         default= os.environ['DATABASE_URL'],
